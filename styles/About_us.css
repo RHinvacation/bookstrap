@@ -1,0 +1,13 @@
+.links {
+	font-size: 0.875rem;
+	color: #337ab7;
+}
+.bg_white {
+	background-color: white !important;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}

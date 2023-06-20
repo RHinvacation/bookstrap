@@ -1,0 +1,180 @@
+.links {
+	font-size: 0.875rem;
+	color: #337ab7;
+}
+
+figure {
+	position: relative;
+	text-align: center;
+	margin: 0;
+}
+
+figure figcaption {
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(51, 51, 51, 0.5);
+	height: 2.5rem;
+	line-height: 2.5rem;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+
+.hua {
+	background-image: url("../images/hyhimg1.jpg");
+	padding: 0;
+}
+
+.hua a {
+	background-color: #66a0e9;
+	display: block;
+	opacity: 0.8;
+	font-size: 1.5rem;
+	text-align: center;
+	color: white;
+	width: 100%;
+	height: 100%;
+}
+
+.bg_grey {
+	background-color: #ccc;
+}
+
+.ling {
+	background-image: url("../images/hyhimg2.jpg");
+	padding: 0;
+}
+
+.ling a {
+	background-color: #e9647f;
+	display: block;
+	opacity: 0.8;
+	font-size: 1.5rem;
+	text-align: center;
+	color: white;
+	height: 100%;
+}
+
+.aing {
+	background-image: url("../images/hyhimg2.jpg");
+	padding: 0;
+}
+
+.aing a {
+	background-color: #0404e9;
+	display: block;
+	opacity: 0.8;
+	font-size: 1.5rem;
+	text-align: center;
+	color: white;
+	height: 100%;
+}
+
+
+/* 传统文化的现代应用右上方的新闻超链接板块 */
+.info-list {
+	background-color: #787878;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.info-list li {
+	margin-bottom: 10px;
+}
+
+.info-list li:first-child a {
+	font-weight: bold;
+}
+
+.info-list li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.info-list li a:hover {
+	font-weight: bold;
+	color: #ccc;
+}
+
+.info-list li:first-child {
+	text-align: right;
+}
+
+.bottom_left {
+	background-color: rgba(51, 51, 51, 0.3);
+}
+
+.bottom_left p {
+	background: url("../images/recruitLeft.png") no-repeat, url("../images/recruitRight.png") no-repeat right bottom;
+	height: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+.main_bottom {
+	background: url("../images/xi_an_chengqiang.jpg");
+	height: 428px;
+	background-size: cover;
+}
+
+.bottom_right {
+	background-color: rgba(51, 51, 51, 0.3);
+}
+
+.bottom_right table {
+	color: white;
+	width: 90%;
+	margin: 2rem auto;
+}
+
+.bottom_right table thead th:first-child {
+	text-align: left;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+.bottom_right table thead th:last-child {
+	text-align: right;
+}
+
+.bottom_right table thead th:last-child a {
+	color: white;
+}
+
+.bottom_right table thead th {
+	border-bottom: 2px solid white;
+	padding-bottom: 0.5rem;
+}
+
+.bottom_right table tbody tr td:last-child {
+	text-align: right;
+}
+
+.bottom_right table tbody tr td {
+	line-height: 2rem;
+}
+
+table a{
+	color: white;
+}
+table a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.bg_white {
+	background-color: white !important;
+}
