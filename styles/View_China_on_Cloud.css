@@ -2,9 +2,33 @@
 	font-size: 0.875rem;
 	color: #337ab7;
 }
+
 .bg_white {
 	background-color: white !important;
 }
+
 a {
 	text-decoration: none;
+}
+
+video {
+	width: 100%;
+	border-radius: 15px;
+}
+
+.item img {
+	width: 100%;
+}
+
+.panorama_img img {
+	width: 100%;
+}
+
+.zhanwei_center {
+	display: flex;
+	justify-content: center;
+}
+
+.zhanwei img {
+	margin: 0 auto;
 }

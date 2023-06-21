@@ -2,9 +2,90 @@
 	font-size: 0.875rem;
 	color: #337ab7;
 }
+
 .bg_white {
 	background-color: white !important;
 }
+
 a {
 	text-decoration: none;
+}
+
+.main_contain {
+	display: flex;
+	justify-content: space-between;
+}
+
+.sidebar {
+	float: left;
+	background-color: #f1f1f1;
+	padding: 20px;
+}
+
+.content {
+	float: right;
+	padding: 20px;
+	background-color: #f1f1f1;
+}
+
+.sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.sidebar ul li a {
+	text-decoration: none;
+}
+
+.sidebar ul li ul {
+	display: none;
+	padding-left: 20px;
+}
+
+.sidebar ul li:hover ul {
+	display: block;
+}
+
+.content h1 {
+	text-align: center;
+}
+
+.content h1,
+.content h2 {
+	margin-top: 0;
+}
+
+.content h1 i {
+	margin-right: 10px;
+}
+
+.shadowed-element {
+	box-shadow: 2px -2px 5px 30px #f5f5f5
+}
+
+@media screen and (max-width: 767px) {
+
+	/* 隐藏侧边栏 */
+	.sidebar {
+		display: none;
+	}
+
+	/* 调整主要内容的宽度 */
+	.content {
+		flex-basis: 100%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+	/* 隐藏侧边栏 */
+	.sidebar {
+		display: none;
+	}
+
+	/* 调整主要内容的宽度 */
+	.content {
+		margin: 0 auto;
+	}
 }
